@@ -1,0 +1,34 @@
+/* Tablet */
+
+@media (max-width: 768px) {
+  header {
+    padding: 0px 15px;
+  }
+
+  main {
+    height: 700px;
+
+    padding: 130px 10px 0px 10px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  nav,
+  .book-now-btn {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .search-section {
+    padding: 0px 10px;
+  }
+
+  .search {
+    width: 40px;
+  }
+}

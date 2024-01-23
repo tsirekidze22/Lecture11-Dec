@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 145px;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 32px;
+}
+
+.book-now-btn {
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 2px solid #4caf4f;
+  background: #4caf4f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.burger-menu {
+  display: none;
+}
+
+main {
+  height: 943px;
+  width: 100%;
+  background-image: url("../images/main-bg-2.jpg");
+  background-position: bottom;
+  background-size: cover;
+  padding-top: 185px;
+}
+
+.text-wrapper {
+  max-width: 637px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-family: "Kufam", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+}
+
+.title-span {
+  color: #4caf4f;
+}
+
+.desc {
+  margin: 27px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.search-section {
+  max-width: 844px;
+  width: 100%;
+  height: 102px;
+  margin: auto;
+  margin-top: 107px;
+  border-radius: 5px;
+  background: rgba(243, 243, 243, 0.6);
+  backdrop-filter: blur(17px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 26px 0px 81px;
+  color: #fff;
+}
+
+.vertical-line {
+  width: 3px;
+  height: 48px;
+  border-radius: 25px;
+  background: #d0d0d0;
+}
+
+.search {
+  width: 83px;
+  padding: 20px;
+  border-radius: 4px;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
